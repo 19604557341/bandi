@@ -7,7 +7,7 @@ body {
     width: 1000px;
     text-align: center;
     line-height: 5;
-    margin: 50px auto 0px;
+    margin: 50px auto 0;
 }
 
 .touxiang img {
@@ -25,14 +25,8 @@ body {
 .r_caihong {
     width: 60%;
     height: 2px;
-    background: linear-gradient(to right,
-                                #f04b22,
-                                #f86b1d,
-                                #ffc90c,
-                                #20a162,
-                                #2c9678,
-                                #1a94bc,
-                                #894276
+    background: linear-gradient(to right,#f04b22,#f86b1d,#ffc90c,
+    #20a162,#2c9678,#1a94bc,#894276
     );
     margin: 0 auto;
 }
@@ -46,13 +40,8 @@ body {
 }
 
 .lianxi span {
-    background: linear-gradient(to right,
-                                #eb261a,
-                                #f97d1c,
-                                #ffc90c,
-                                #45b787,
-                                #2b73af,
-                                #7e1671
+    background: linear-gradient(to right,#eb261a,#f97d1c,#ffc90c,
+    #45b787,#2b73af,#7e1671
     ) no-repeat right bottom;
     background-size: 0px 2px;
     transition: background-size 700ms;
